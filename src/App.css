@@ -1,9 +1,39 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
+
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+.animate-pulse-slow {
+  animation: pulse-slow 6s ease-in-out infinite;
+}
+/* Animated shifting gradient background */
+.animate-gradient {
+  animation: gradientBG 16s ease-in-out infinite alternate;
+  background-size: 200% 200%;
+}
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+/* Breathing circle 5s inhale/exhale */
+.animate-breathe5 {
+  animation: breathe5 5s ease-in-out infinite;
+}
+@keyframes breathe5 {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.18); }
+}
+
 
 .logo {
   height: 6em;
@@ -40,3 +70,9 @@
 .read-the-docs {
   color: #888;
 }
+/* Background pan animation */
+@keyframes bgMove {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
