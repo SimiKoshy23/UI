@@ -5,7 +5,7 @@ html, body, #root {
   padding: 0;
 }
 
-@keyframes pulse-slow {
+/* @keyframes pulse-slow {
   0%, 100% {
     opacity: 0.4;
   }
@@ -15,18 +15,18 @@ html, body, #root {
 }
 .animate-pulse-slow {
   animation: pulse-slow 6s ease-in-out infinite;
-}
+} */
 /* Animated shifting gradient background */
-.animate-gradient {
+/* .animate-gradient {
   animation: gradientBG 16s ease-in-out infinite alternate;
   background-size: 200% 200%;
 }
 @keyframes gradientBG {
   0% { background-position: 0% 50%; }
-  100% { background-position: 100% 50%; }
-}
+  100% { background-position: 100% 50%; } */
+/* } */
 /* Breathing circle 5s inhale/exhale */
-.animate-breathe5 {
+/* .animate-breathe5 {
   animation: breathe5 5s ease-in-out infinite;
 }
 @keyframes breathe5 {
@@ -69,10 +69,10 @@ html, body, #root {
 
 .read-the-docs {
   color: #888;
-}
+} */
 /* Background pan animation */
-@keyframes bgMove {
+/* @keyframes bgMove {
   0% { background-position: 0% 50%; }
   100% { background-position: 100% 50%; }
-}
+} */
 

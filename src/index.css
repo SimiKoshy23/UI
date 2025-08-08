@@ -4,56 +4,56 @@ html, body, #root {
   padding: 0;
 }
 
-@keyframes pulse-slow {
+/* @keyframes pulse-slow {
   0%, 100% {
     opacity: 0.4;
   }
   50% {
     opacity: 0.6;
   }
-}
+} */
 
-.animate-pulse-slow {
+/* .animate-pulse-slow {
   animation: pulse-slow 6s ease-in-out infinite;
-}
+} */
 
 /* Animated shifting gradient background */
-.animate-gradient {
+/* .animate-gradient {
   animation: gradientBG 16s ease-in-out infinite alternate;
   background-size: 200% 200%;
 }
 @keyframes gradientBG {
   0% { background-position: 0% 50%; }
   100% { background-position: 100% 50%; }
-}
+} */
 
 /* Breathing circle 5s inhale/exhale */
-.animate-breathe5 {
+/* .animate-breathe5 {
   animation: breathe5 5s ease-in-out infinite;
 }
 @keyframes breathe5 {
   0%, 100% { transform: scale(1); }
   50% { transform: scale(1.18); }
-}
+} */
 
 /* Glowing CTA pulse */
-.animate-glowPulse {
+/* .animate-glowPulse {
   animation: glowPulse 2.5s infinite;
 }
 @keyframes glowPulse {
   0%, 100% { box-shadow: 0 0 0 0 rgba(99,102,241,0.7), 0 0 32px 8px rgba(99,102,241,0.15); }
   50% { box-shadow: 0 0 0 18px rgba(99,102,241,0), 0 0 48px 16px rgba(99,102,241,0.25); }
-}
+} */
 
 /* Floating particles */
-@keyframes floatParticle {
+/* @keyframes floatParticle {
   0% { transform: translateY(0) scale(1); }
   50% { transform: translateY(-30px) scale(1.1); }
   100% { transform: translateY(0) scale(1); }
-}
+} */
 
 /* Fade-in/slide-in for reveal */
-.reveal {
+/* .reveal {
   opacity: 0;
   transform: translateY(40px);
   transition: opacity 1s cubic-bezier(.4,0,.2,1), transform 1s cubic-bezier(.4,0,.2,1);
@@ -63,11 +63,11 @@ html, body, #root {
 }
 .translate-y-0 {
   transform: translateY(0) !important;
-}
+} */
 
 
 
-body {
+/* body {
   min-height: 100vh;
   background: linear-gradient(120deg, #a7c7e7 0%, #f7cac9 100%);
   background-size: 200% 200%;
@@ -78,9 +78,9 @@ body {
 @keyframes gradientBG {
   0% { background-position: 0% 50%; }
   100% { background-position: 100% 50%; }
-}
+} */
 
-.glassmorphism-card {
+/* .glassmorphism-card {
   background: rgba(255,255,255,0.18);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.17);
   backdrop-filter: blur(16px);
@@ -89,54 +89,54 @@ body {
 }
 
 /* Fade-in animation for sections */
-.animate-fadeIn {
+/* .animate-fadeIn {
   opacity: 0;
   animation: fadeIn 2s ease-out forwards;
-}
-@keyframes fadeIn {
+} */ */
+/* @keyframes fadeIn {
   0% { opacity: 0; transform: translateY(40px); }
   100% { opacity: 1; transform: translateY(0); }
 }
 
 /* Breathing circle animation */
-.animate-breathe {
+/* .animate-breathe {
   animation: breathe 4s ease-in-out infinite;
-}
-@keyframes breathe {
+}  */
+/* @keyframes breathe {
   0%, 100% { transform: scale(1); }
   50% { transform: scale(1.2); }
 }
 
 /* CTA pulse animation */
-.animate-pulseCta {
+/* .animate-pulseCta {
   animation: pulseCta 2s infinite;
 }
 @keyframes pulseCta {
   0%, 100% { box-shadow: 0 0 0 0 rgba(99,102,241,0.7); }
   50% { box-shadow: 0 0 0 16px rgba(99,102,241,0); }
-}
+}  */
 
 /* Hide scrollbar */
 /* Hide scrollbar by default, show on hover */
-.scroll-container {
+/* .scroll-container {
   overflow-x: hidden;
   /* Hide scrollbar for Firefox */
-  scrollbar-width: none;
-}
-.scroll-container:hover {
+  /* scrollbar-width: none; */
+/* }  */
+/* .scroll-container:hover {
   overflow-x: auto;
   /* Show thin scrollbar for Firefox */
-  scrollbar-width: thin;
+  /* scrollbar-width: thin;
   scrollbar-color: rgba(255,255,255,0.5) transparent;
-}
+}  */
 /* WebKit scrollbar width and thumb */
-.scroll-container::-webkit-scrollbar {
+/* .scroll-container::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
 .scroll-container::-webkit-scrollbar-thumb {
   background: rgba(255,255,255,0.5);
   border-radius: 4px;
-}
+} */
 
 /* Remove default Vite/React styles for a clean Tailwind/modern look */
